@@ -1,17 +1,23 @@
-###post route to check ip distribution
+### post route to check ip distribution
 POST http://localhost:3000/route
 Content-Type: application/json
+
 {
     "ip": "192.168.1.1"
 }
 
+
+
 ### health check for nodes
 POST http://localhost:3000/health
 Content-Type: application/json
+
 {
     "node": "Node-B",
     "status": false
 }
+
+
 
 ### simulate traffic
 GET http://localhost:3000/simulate?count=5

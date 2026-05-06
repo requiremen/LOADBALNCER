@@ -9,7 +9,7 @@ A simple and efficient Node.js based Load Balancer that routes incoming traffic 
 - **Random IP Generation**: Utility to simulate diverse incoming traffic.
 
 ## Prerequisites
-- Node.js (v14 or higher recommended)
+- Node.js (v8 or higher recommended)
 - npm (Node Package Manager)
 
 ## Installation
